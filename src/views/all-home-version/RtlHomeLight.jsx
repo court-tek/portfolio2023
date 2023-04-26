@@ -4,7 +4,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Home from "../../components/HomeRtl";
 import About from "../../components/about/AboutMain";
-import Portfolio from "../../components/PortfolioRtl";
+// import Portfolio from "../../components/PortfolioRtl";
 import News from "../../components/NewsRtl";
 import ServiceMain from "../../components/service/ServiceMain";
 import Contact from "../../components/ContactRtl";
@@ -159,7 +159,7 @@ const HomeLight = () => {
                 {/* END ABOUT MENU TAB CONTENT */}
 
                 <TabPanel>
-                  <Portfolio />
+                  {/* <Portfolio /> */}
                 </TabPanel>
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
