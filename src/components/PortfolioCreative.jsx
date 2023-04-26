@@ -93,9 +93,7 @@ const Portfolio = () => {
   });
 
   // Email Loop
-  const emailProjects = projects.
-  filter(email => email.tag !== "landingPage").
-  map(function(email) {
+  const emailProjects = projects.filter(email => email.tag !== "landingPage").map(function(email) {
     const imageStyles = {
       background: `url(${email.source})`,
       backgroundSize: 'cover', 
@@ -122,9 +120,7 @@ const Portfolio = () => {
   });
 
   // Email Loop
-  const landingProjects = projects.
-  filter(page => page.tag !== "email").
-  map(function(page) {
+  const landingProjects = projects.filter(page => page.tag !== "email").map(function(page) {
     const imageStyles = {
       background: `url(${page.source})`,
       backgroundSize: 'cover', 
