@@ -21,7 +21,7 @@ const Portfolio = () => {
     {
       source: "assets/img/portfolio/purplemock1.jpg",
       businessName: "Purple",
-      projType: "Abandonded Cart",
+      projType: "Abandonded Cart Email",
       tag: "email"
     },
     {
@@ -33,7 +33,7 @@ const Portfolio = () => {
     {
       source: "assets/img/portfolio/kayakmock1.jpg",
       businessName: "Kayak",
-      projType: "Promotional",
+      projType: "Promotional Email",
       tag: "email"
     },
     {

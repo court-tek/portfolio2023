@@ -815,40 +815,40 @@ $time-var2: .4s;
 li .inner .entry .image {
       height: 425px;
       width: 100%;
-      // background-size: 'cover';
-      // background-position: 'center center';
-      // background-repeat: 'no-repeat';
+      cursor: pointer;
+      display: block;
 }
 
 li .inner .entry .image .hover-bg {
   padding: 10px 20px;
-  background: rgba(255,255,255, .0);
-  transition: transform $time-var1 ease-in-out $time-var2;
+  // background: rgba(255,255,255, .0);
+  transition: all $time-var1 ease-in-out;
 } 
 
 li .inner .entry:hover .image .hover-bg {
   padding: 10px 20px;
   height: 100%;
-  background: rgba(255,255,255, .6);
+  // background: rgba(55,355,355, .6);
+  // transition: all $time-var1 ease-in-out;
 }
 
 li .inner .entry .image .hover-bg .text {
-  background: black;
+  text-align: center;
   padding: 10px 20px;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   transform: translate3d(0, 500px, 0);        
-  transition: all $time-var1 ease-in-out $time-var2;
+  transition: all $time-var1 ease-in-out;
 }
 
 li .inner .entry:hover .image .hover-bg .text {
-  background: black;
-  padding: 10px 20px;
-  color: white;
+  background: rgba(455,455,455, .6);
+  color: black;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  transform: translate3d(0, 150px, 0);        
+  transform: translate3d(0, 0, 0);        
   transition: all $time-var1 ease-in-out $time-var2;
 }
 
