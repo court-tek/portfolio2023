@@ -36,24 +36,6 @@ const Portfolio = () => {
       projType: "Promotional Email",
       tag: "email"
     },
-    {
-      source: "assets/img/portfolio/kayakmock1.jpg",
-      businessName: "Kayak",
-      projType: "Landing Page",
-      tag: "landingPage"
-    },
-    {
-      source: "assets/img/portfolio/kayakmock1.jpg",
-      businessName: "Kayak",
-      projType: "Landing Page",
-      tag: "landingPage"
-    },
-    {
-      source: "assets/img/portfolio/5.jpg",
-      businessName: "Dropbox",
-      projType: "Landing Page",
-      tag: "landingPage"
-    },
   ];
 
   // for modal details method
