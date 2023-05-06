@@ -22,18 +22,28 @@ const Portfolio = () => {
       source: "assets/img/portfolio/purplemock1.jpg",
       businessName: "Purple",
       projType: "Abandonded Cart Email",
+      link: "https://court-tek.github.io/purpleabandonedcart/",
       tag: "email"
     },
     {
       source: "assets/img/portfolio/purplemock2.jpg",
       businessName: "Purple",
       projType: "Welcome Email",
+      link: "https://court-tek.github.io/purplewelcome/",
       tag: "email"
     },
     {
       source: "assets/img/portfolio/kayakmock1.jpg",
       businessName: "Kayak",
       projType: "Promotional Email",
+      link: "https://court-tek.github.io/kayakpromo/",
+      tag: "email"
+    },
+    {
+      source: "assets/img/portfolio/turbotaxmock.jpg",
+      businessName: "TurboTax",
+      projType: "Newsletter Email",
+      link: "https://court-tek.github.io/taxnewsletter/",
       tag: "email"
     },
   ];
@@ -62,10 +72,12 @@ const Portfolio = () => {
                 <div className="entry tokyo_tm_portfolio_animation_wrap">
                  <div className="image" style={imageStyles}>
                     <div className="hover-bg">
-                      <div className="text">
-                            {project.businessName} <br/>
-                            {project.projType}
-                      </div>
+                    <a href={project.link}>
+                        <div className="text">
+                              {project.businessName} <br/>
+                              {project.projType}
+                        </div>
+                      </a>
                     </div>
                  </div>
               </div>
@@ -89,10 +101,12 @@ const Portfolio = () => {
                 <div className="entry tokyo_tm_portfolio_animation_wrap">
                  <div className="image" style={imageStyles}>
                     <div className="hover-bg">
-                      <div className="text">
-                            {email.businessName} <br/>
-                            {email.projType}
-                      </div>
+                      <a href={email.link}>
+                        <div className="text">
+                              {email.businessName} <br/>
+                              {email.projType}
+                        </div>
+                      </a>
                     </div>
                  </div>
               </div>
@@ -116,10 +130,12 @@ const Portfolio = () => {
                 <div className="entry tokyo_tm_portfolio_animation_wrap">
                  <div className="image" style={imageStyles}>
                     <div className="hover-bg">
-                      <div className="text">
-                            {page.businessName} <br/>
-                            {page.projType}
-                      </div>
+                    <a href={page.link}>
+                        <div className="text">
+                              {page.businessName} <br/>
+                              {page.projType}
+                        </div>
+                      </a>
                     </div>
                  </div>
               </div>
