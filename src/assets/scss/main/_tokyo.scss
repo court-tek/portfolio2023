@@ -820,13 +820,13 @@ li .inner .entry .image {
 }
 
 li .inner .entry .image .hover-bg {
-  padding: 10px 20px;
+  padding: 0;
   // background: rgba(255,255,255, .0);
   transition: all $time-var1 ease-in-out;
 } 
 
 li .inner .entry:hover .image .hover-bg {
-  padding: 10px 20px;
+  padding: 0;
   height: 100%;
   // background: rgba(55,355,355, .6);
   // transition: all $time-var1 ease-in-out;
@@ -835,6 +835,7 @@ li .inner .entry:hover .image .hover-bg {
 li .inner .entry .image .hover-bg .text {
   text-align: center;
   padding: 10px 20px;
+  height: 100%;
   color: white;
   text-decoration: none;
   text-transform: uppercase;

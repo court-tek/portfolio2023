@@ -19,11 +19,11 @@ const Portfolio = () => {
  
   const projects = [
     {
-      source: "assets/img/portfolio/purplemock1.jpg",
-      businessName: "Purple",
-      projType: "Abandonded Cart Email",
-      link: "https://court-tek.github.io/purpleabandonedcart/",
-      tag: "email"
+      source: "assets/img/portfolio/clarksmock1.png",
+      businessName: "Clarks",
+      projType: "Clarks Landing Page",
+      link: "https://court-tek.github.io/clarksapp/",
+      tag: "landingPage"
     },
     {
       source: "assets/img/portfolio/purplemock2.jpg",
@@ -44,6 +44,13 @@ const Portfolio = () => {
       businessName: "TurboTax",
       projType: "Newsletter Email",
       link: "https://court-tek.github.io/taxnewsletter/",
+      tag: "email"
+    },
+    {
+      source: "assets/img/portfolio/shopifymockup1.png",
+      businessName: "Shopify",
+      projType: "Newsletter Email",
+      link: "https://court-tek.github.io/shopifynews/",
       tag: "email"
     },
   ];

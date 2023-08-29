@@ -57,8 +57,8 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
+                <Link style={{ textDecoration: "none" }} className="navbar-brand" to="/">
+                <h3 className="logo" style={{ fontWeight: 800 }}>Inboxartista</h3>
                 </Link>
               </div>
               {/* END LOGO */}
