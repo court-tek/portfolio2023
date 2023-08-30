@@ -19,7 +19,7 @@ const Portfolio = () => {
  
   const projects = [
     {
-      source: "assets/img/portfolio/clarksmock1.png",
+      source: "assets/img/portfolio/clarkmock1.jpg",
       businessName: "Clarks",
       projType: "Clarks Landing Page",
       link: "https://court-tek.github.io/clarksapp/",
@@ -47,7 +47,7 @@ const Portfolio = () => {
       tag: "email"
     },
     {
-      source: "assets/img/portfolio/shopifymockup1.png",
+      source: "assets/img/portfolio/shopifymock1.jpg",
       businessName: "Shopify",
       projType: "Newsletter Email",
       link: "https://court-tek.github.io/shopifynews/",
